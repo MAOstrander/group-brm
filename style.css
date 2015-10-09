@@ -1,6 +1,45 @@
+#top {
+	background-color: #42a1cc;
+	width: 100%;
+	height: 90px;
+	padding-top: 10px;
+}
+#logo {
+	color: white;
+	margin-left: 180px;
+}
+#nav {
+	float: left;
+	display: inline-block;
+	width: 100%;
+	height: 35px;
+	margin: 0 auto 0 auto;
+	background-color: #2d85b0;
+}
+#nav_container {
+	width:40%;
+	margin: auto 0 auto 10%;
+}
+#nav_links {
+	margin: auto 0 auto 10%;
+}
+
+#nav_links li{
+	display: inline;
+	margin: auto 0 auto 10%;
+}
+a {
+	color: white
+}
+
+/* Mat's style section */
+#fave {
+	background-color: #66b8dc;
+}
+
 section {
 	width: 80%;
-	margin: 10px auto 10px auto;
+	margin: 75px auto 0 auto;
 }
 
 article {
@@ -19,8 +58,9 @@ article {
 	text-align: center;
 	list-style-position: inside;
 	font-size: 2em;
-
-	background-color: #66b8dc;
+	border: 5px ridge #ff6d4a;
+	border-radius: 20px;
+	background-color: #2d85b0; 
 }
 
 
@@ -33,4 +73,8 @@ footer {
 	background-color: #42a1cc;
 	border-top: 2px solid black;
 	height: 50px;
+}
+
+a:hover {
+	color: #ff6d4a
 }
