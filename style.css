@@ -134,4 +134,41 @@
 
 }
 
+#visit_our_pages{
+	height: 400px;
+	background-color: #42A1CC;
+	position: relative;
+}
+
+#visit_our_pages a{
+	text-decoration: none;
+	color: white;
+	font-size: 3rem;
+	width: 100%;
+	text-align: center;
+	margin: 0px;
+	padding: 0px;
+}
+
+#visit_our_pages p{
+	width: 100%;
+	text-align: center;
+	margin: 0px;
+}
+
+.seepgs_btn{
+	width: 200px;
+	height: 70px;
+	border: none;
+	background-color: white;
+	border-radius: 5px;
+	display: block;
+	position: absolute;
+	left: 50%;
+	margin-left: -100px;
+	bottom: 60px;
+	font-size: 2rem;
+	color: #FF6D4A;
+}
+
 /* Ben's code end -->
