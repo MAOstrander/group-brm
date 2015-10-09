@@ -1,4 +1,3 @@
-
 /* Ben's code below for INDEX page (index.html) */
 	
 .remove_margs{
@@ -221,3 +220,49 @@ body{
 	margin: 0px;
 }
 
+/* Mat's style section */
+#fave {
+	background-color: #66b8dc;
+}
+
+section {
+	width: 80%;
+	margin: 75px auto 0 auto;
+}
+
+article {
+	border: 2px solid black;
+	margin-bottom: 10px;
+	border-radius: 20px;
+	padding: 20px;
+	min-width: 300px;
+	min-height: 400px;
+	clear: both;
+
+	background-color: #97d2ec;
+}
+
+#top-ten {
+	text-align: center;
+	list-style-position: inside;
+	font-size: 2em;
+	border: 5px ridge #ff6d4a;
+	border-radius: 20px;
+	background-color: #2d85b0; 
+}
+
+
+article > img {
+	float: left;
+	margin: 0 10px 10px 0;
+}
+
+footer {
+	background-color: #42a1cc;
+	border-top: 2px solid black;
+	height: 50px;
+}
+
+a:hover {
+	color: #ff6d4a
+}
