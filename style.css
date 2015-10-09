@@ -1,7 +1,5 @@
 <<<<<<< HEAD
 /* Ben's code below for INDEX page (index.html) */
-
-
 	
 .remove_margs{
 	margin: 0px;
@@ -16,6 +14,7 @@
 	background-size: cover;  
 	font-family: sans-serif;
 	position: relative;
+	margin-top: 35px;
 }
 
 #home_ban .banner_text{
@@ -208,5 +207,9 @@
 }
 a {
 	color: white
+}
+
+body{
+	margin: 0px;
 }
 
