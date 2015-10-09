@@ -1,0 +1,36 @@
+section {
+	width: 80%;
+	margin: 10px auto 10px auto;
+}
+
+article {
+	border: 2px solid black;
+	margin-bottom: 10px;
+	border-radius: 20px;
+	padding: 20px;
+	min-width: 300px;
+	min-height: 400px;
+	clear: both;
+
+	background-color: #97d2ec;
+}
+
+#top-ten {
+	text-align: center;
+	list-style-position: inside;
+	font-size: 2em;
+
+	background-color: #66b8dc;
+}
+
+
+article > img {
+	float: left;
+	margin: 0 10px 10px 0;
+}
+
+footer {
+	background-color: #42a1cc;
+	border-top: 2px solid black;
+	height: 50px;
+}
