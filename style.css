@@ -182,6 +182,7 @@
 #logo {
 	color: white;
 	margin-left: 180px;
+	font-family: 
 }
 #nav {
 	float: left;
@@ -189,6 +190,7 @@
 	width: 100%;
 	height: 35px;
 	margin: 0 auto 0 auto;
+	padding-top: 10px;
 /*	padding: 15px 0 0 15px; */
 /*	font-family: Arial; */
 	background-color: #2d85b0;
@@ -207,6 +209,12 @@
 }
 a {
 	color: white
+}
+#table table{
+	width: 100%;
+	/*border: 5px solid black;*/
+	margin: 0 auto 0 auto;
+	padding-left: 5%;
 }
 
 body{
